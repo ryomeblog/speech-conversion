@@ -1,0 +1,17 @@
+{
+  "name": "speech-conversion",
+  "version": "1.0.0",
+  "description": "ステレオミキサーから音声を翻訳する",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^6.6.1",
+    "node-record-lpcm16": "^1.0.1",
+    "translate-google": "^1.5.0"
+  }
+}
